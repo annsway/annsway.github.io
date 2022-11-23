@@ -1,4 +1,7 @@
 {
+  "name": "anns-app",
+  "version": "0.1.0",
+  "homepage": "https://annsway.github.io/annsway.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +13,9 @@
     "format": "prettier --write .",
     "test-all": "npm run check-format && npm run check-lint && npm run check-types && npm run build",
     "prepare": "husky install",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
@@ -39,6 +44,7 @@
     "autoprefixer": "^10.4.0",
     "eslint": "7.32.0",
     "eslint-config-next": "^11.1.2",
+    "gh-pages": "^4.0.0",
     "husky": "^7.0.0",
     "postcss": "^8.4.4",
     "prettier": "^2.4.1",

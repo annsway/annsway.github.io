@@ -1,5 +1,3 @@
-import { convertToArticleList, getPublishedArticles } from '@/lib/notion';
-
 import { Ad } from '@/components/Ad';
 import { ArticleList } from '@/components/ArticleList';
 import { Button } from '@/components/Button';
@@ -232,15 +230,3 @@ export default function About({ recentArticles }) {
     </Container>
   );
 }
-
-export const getStaticProps: GetStaticProps = async () => {
-  const data = await getPublishedArticles(process.env.BLOG_DATABASE_ID);
-  const { articles } = convertToArticleList(data);
-
-  return {
-    props: {
-      recentArticles: articles.slice(0, 3)
-    },
-    revalidate: 120
-  };
-};
