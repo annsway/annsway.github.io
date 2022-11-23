@@ -1,4 +1,4 @@
-# Credit to: braydoncoyer.dev
+# Built based on braydoncoyer.dev template
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)

@@ -133,7 +133,6 @@ export default function About({ recentArticles }) {
           <Image
             className="rounded-xl group-hover:opacity-75"
             objectFit="fill"
-            // src="/../static/images/yunzhou.png"
             src={siteMetadata.avatarImage}
             placeholder="blur"
             blurDataURL={siteMetadata.avatarImage}
