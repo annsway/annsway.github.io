@@ -2,7 +2,6 @@
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Content**: [Notion API](https://developers.notion.com)
 - **Database**: [Supabase](https://supabase.com)
 - **Open Graph Images**: [Cloudinary](https://cloudinary.com)
 - **Newsletter**: [Revue](https://www.getrevue.co)
