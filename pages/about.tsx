@@ -1,11 +1,5 @@
-import { Ad } from '@/components/Ad';
-import { ArticleList } from '@/components/ArticleList';
-import { Button } from '@/components/Button';
-import { ButtonType } from '@/lib/types';
 import { Container } from 'layouts/Container';
-import { GetStaticProps } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 import siteMetadata from '@/data/siteMetadata';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
