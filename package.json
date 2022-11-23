@@ -1,7 +1,7 @@
 {
   "name": "anns-app",
   "version": "0.1.0",
-  "homepage": "https://annsway.github.io/annsway.github.io",
+  "homepage": "https://annsway.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev",
