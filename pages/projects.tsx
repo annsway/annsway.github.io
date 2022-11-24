@@ -34,9 +34,9 @@ export default function Projects() {
             <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
               <Image
                 objectFit="contain"
-                src="/../static/images/tista.png"
+                src="/static/images/tista.png"
                 placeholder="blur"
-                blurDataURL="/../static/images/tista.png"
+                blurDataURL="/static/images/tista.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"
@@ -68,9 +68,9 @@ export default function Projects() {
               <Image
                 className="absolute top-0 left-0"
                 objectFit="fill"
-                src="/../static/images/nlp-wordcloud.png"
+                src="/static/images/nlp-wordcloud.png"
                 placeholder="blur"
-                blurDataURL="/../static/images/nlp-wordcloud.png"
+                blurDataURL="/static/images/nlp-wordcloud.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"
@@ -101,9 +101,9 @@ export default function Projects() {
               <Image
                 className="absolute top-5 md:top-0"
                 objectFit="contain"
-                src="/../static/images/d3-nyincome.png"
+                src="/static/images/d3-nyincome.png"
                 placeholder="blur"
-                blurDataURL="/../static/images/d3-nyincome.png"
+                blurDataURL="/static/images/d3-nyincome.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"
@@ -137,9 +137,9 @@ export default function Projects() {
               <Image
                 className="absolute top-5 md:top-0"
                 objectFit="contain"
-                src="/../static/images/d3-senators.png"
+                src="/static/images/d3-senators.png"
                 placeholder="blur"
-                blurDataURL="/../static/images/d3-senators.png"
+                blurDataURL="/static/images/d3-senators.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"
@@ -171,9 +171,9 @@ export default function Projects() {
               <Image
                 className="absolute top-5 md:top-0"
                 objectFit="contain"
-                src="/../static/images/d3-basketball.png"
+                src="/static/images/d3-basketball.png"
                 placeholder="blur"
-                blurDataURL="/../static/images/d3-basketball.png"
+                blurDataURL="/static/images/d3-basketball.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"
@@ -204,9 +204,9 @@ export default function Projects() {
               <Image
                 className="absolute top-5 md:top-0"
                 objectFit="contain"
-                src="/../static/images/d3-gradient.png"
+                src="/static/images/d3-gradient.png"
                 placeholder="blur"
-                blurDataURL="/../static/images/d3-gradient.png"
+                blurDataURL="/static/images/d3-gradient.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"

@@ -140,7 +140,7 @@ export default function About({ recentArticles }) {
           <p className="">
             In my early career life, I have experienced multidisciplinary jobs
             in diverse industries, and found my true passion lying in converting
-            business and design ideas into functional products and data
+            business and design initiatives into functional products and data
             solutions that can help people live a better life.
           </p>
           <p>
