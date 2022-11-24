@@ -46,20 +46,20 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* <div className="col-span-1">
-          <h2 className="mt-0">Pomegradient</h2>
+        <div className="col-span-1">
+          <h2 className="mt-0">NLP Project for 10-K Financial Reports</h2>
           <p>
-            Pomegradient is a web-based gradient solutiuon currently in beta
-            that allows you to find, save and craft gradients with a creative
-            community!
+            The intuition of this project was to utilize machine learning
+            methodologies to classify NASDAQ-100 stock performance based on the
+            Risk Factors from hundreds of 10-K Reports.
           </p>
           <a
             className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
-            href="https://www.pomegradient.com"
+            href="https://github.com/annsway/NLP"
             target="_blank"
             rel="noreferrer"
           >
-            Visit Pomegradient
+            View Project
           </a>
         </div>
         <div className="col-span-2">
@@ -68,85 +68,153 @@ export default function Projects() {
               <Image
                 className="absolute top-0 left-0"
                 objectFit="fill"
-                src="https://res.cloudinary.com/braydoncoyer/image/upload/v1638225420/pomegradient_ipadpro_vhapql.png"
+                src="/../static/images/nlp-wordcloud.png"
                 placeholder="blur"
-                blurDataURL="https://res.cloudinary.com/braydoncoyer/image/upload/v1638225420/pomegradient_ipadpro_vhapql.png"
-                width={1978}
-                height={1713}
+                blurDataURL="/../static/images/nlp-wordcloud.png"
+                width={5110}
+                height={3139}
                 layout="intrinsic"
-                alt={'NgLimeade on an iPad'}
+                alt={'nlp'}
               />
             </div>
           </div>
         </div>
 
         <div className="col-span-1">
-          <h2 className="mt-0">Bundle, LLC</h2>
+          <h2 className="mt-0">Median Family Income of New York State</h2>
           <p>
-            A startup consultant company desired to reach potential clients
-            organically through a blog. Working closely with them to understand
-            the requirements, I created an industry website showcasing their
-            products, and a blog focussed on SEO.
+            D3 Visualization on the median family income of the New York
+            counties in 2019.
           </p>
           <a
             className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
-            href="https://www.bundleapps.io"
+            href="https://github.com/annsway/d3-visualization/tree/main/nyincome"
             target="_blank"
             rel="noreferrer"
           >
-            Visit Bundle
+            View Code
           </a>
         </div>
         <div className="col-span-2">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
             <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
               <Image
-                className="absolute top-5 md:top-0 -left-[250px]"
-                objectFit="fill"
-                src="https://res.cloudinary.com/braydoncoyer/image/upload/v1638221102/mbpro_bundle_site_zg8jbe.png"
+                className="absolute top-5 md:top-0"
+                objectFit="contain"
+                src="/../static/images/d3-nyincome.png"
                 placeholder="blur"
-                blurDataURL="https://res.cloudinary.com/braydoncoyer/image/upload/v1638221102/mbpro_bundle_site_zg8jbe.png"
+                blurDataURL="/../static/images/d3-nyincome.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"
-                alt={'Bundle, LLC on a Macbook Pro'}
+                alt={'NY Income'}
               />
             </div>
           </div>
         </div>
+
         <div className="col-span-1">
-          <h2 className="mt-0">NgLimeade</h2>
+          <h2 className="mt-0">US Senators Shared with Voting Patterns</h2>
           <p>
-            NgLimeade is an Angular Toast Library that aims to get toast
-            notifications up and running in less than a minute! No joke! Check
-            it out for yourself!
+            D3 Forced Simulation based on the shared voting patterns of the US
+            Senators during the 109th congress (2005 to 2007). Each node
+            represents a senator (blue: democrat; red: republican). Edges have
+            been drawn between senators who shared similar voting patterns.
+            Senators who almost always disagree will not be connected.
           </p>
           <a
             className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
-            href="https://www.npmjs.com/package/ng-limeade"
+            href="https://github.com/annsway/d3-visualization/tree/main/senators-shared"
             target="_blank"
             rel="noreferrer"
           >
-            Install NgLimeade
+            View Code
           </a>
         </div>
         <div className="col-span-2">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
-            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg h-2/5 dark:bg-midnight">
+            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
               <Image
-                className="absolute top-0 left-[-150px] md:left-[-300px]"
-                objectFit="fill"
-                src="https://res.cloudinary.com/braydoncoyer/image/upload/v1638226232/nglimeade_ipadpro_blliap.png"
+                className="absolute top-5 md:top-0"
+                objectFit="contain"
+                src="/../static/images/d3-senators.png"
                 placeholder="blur"
-                blurDataURL="https://res.cloudinary.com/braydoncoyer/image/upload/v1638226232/nglimeade_ipadpro_blliap.png"
-                width={1201}
-                height={1788}
+                blurDataURL="/../static/images/d3-senators.png"
+                width={5110}
+                height={3139}
                 layout="intrinsic"
-                alt={'NgLimeade on an iPad'}
+                alt={'Senators'}
               />
             </div>
           </div>
-        </div> */}
+        </div>
+
+        <div className="col-span-1">
+          <h2 className="mt-0">NCAA Basketball Games Shot Attempts Heatmap</h2>
+          <p>
+            D3 Visualization based on the shot attempts of the NCAA Basketball
+            games (2018-2019 & 2020-2021 seasons). Areas of high activity in the
+            game are colored yellow and areas of low activity are black.
+          </p>
+          <a
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+            href="https://github.com/annsway/d3-visualization/tree/main/basketball"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Code
+          </a>
+        </div>
+        <div className="col-span-2">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
+            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
+              <Image
+                className="absolute top-5 md:top-0"
+                objectFit="contain"
+                src="/../static/images/d3-basketball.png"
+                placeholder="blur"
+                blurDataURL="/../static/images/d3-basketball.png"
+                width={5110}
+                height={3139}
+                layout="intrinsic"
+                alt={'Basketball'}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <h2 className="mt-0">D3.js HCL Color Exploration</h2>
+          <p>
+            D3 Visualization based on the HCL Color (hue angle, chroma,
+            lightness), which is closely estimates how humans perceive colors.
+          </p>
+          <a
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+            href="https://github.com/annsway/d3-visualization/tree/main/gradient"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Code
+          </a>
+        </div>
+        <div className="col-span-2">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
+            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
+              <Image
+                className="absolute top-5 md:top-0"
+                objectFit="contain"
+                src="/../static/images/d3-gradient.png"
+                placeholder="blur"
+                blurDataURL="/../static/images/d3-gradient.png"
+                width={5110}
+                height={3139}
+                layout="intrinsic"
+                alt={'D3Gradient'}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </Container>
   );
