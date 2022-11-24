@@ -34,9 +34,9 @@ export default function Projects() {
             <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
               <Image
                 objectFit="contain"
-                src="/static/images/tista.png"
+                src="/../static/images/tista.png"
                 placeholder="blur"
-                blurDataURL="/static/images/tista.png"
+                blurDataURL="/../static/images/tista.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"
