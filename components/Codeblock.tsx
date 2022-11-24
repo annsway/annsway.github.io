@@ -1,6 +1,7 @@
 import Highlight, { defaultProps } from 'prism-react-renderer';
 
 import { Language } from '@/lib/types';
+import { useCopyToClipboard } from '@/lib/hooks/useCopyToClipboard';
 
 type Props = {
   code: string;
