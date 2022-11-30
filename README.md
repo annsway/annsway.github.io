@@ -2,9 +2,6 @@
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Database**: [Supabase](https://supabase.com)
-- **Open Graph Images**: [Cloudinary](https://cloudinary.com)
-- **Newsletter**: [Revue](https://www.getrevue.co)
 - **Deployment**: [Vercel](https://vercel.com)
 
 ## Project Overview
@@ -16,3 +13,8 @@
 - `public/*` - Static assets including robots.txt
 - `styles/*` - A handful of global styles, and reusable classes utilzing @apply with Tailwind.
 - `data/*` - a simple object containing global data about the site.
+
+## Run Project
+
+- `npm install`
+- `npm run dev`

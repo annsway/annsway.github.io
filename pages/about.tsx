@@ -146,7 +146,7 @@ export default function About({ recentArticles }) {
           <p>
             Upon my graduation in May 2023, I am actively looking for software
             engineering or data engineering job opportunities. Please feel free
-            to contact me on <a href={siteMetadata.twitter}>LinkedIn</a>. You
+            to contact me on <a href={siteMetadata.linkedin}>LinkedIn</a>. You
             can find my past projects on{' '}
             <a href={siteMetadata.github}>GitHub</a> or{' '}
             <NextLink href="/projects">

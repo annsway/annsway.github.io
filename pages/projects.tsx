@@ -28,6 +28,14 @@ export default function Projects() {
           >
             View Demo
           </a>
+          <a
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+            href="https://github.com/annsway/eth_wallet"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Project
+          </a>
         </div>
         <div className="col-span-2">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
@@ -83,7 +91,7 @@ export default function Projects() {
         <div className="col-span-1">
           <h2 className="mt-0">Median Family Income of New York State</h2>
           <p>
-            D3 Visualization on the median family income of the New York
+            A D3 visualization on the median family income of the New York
             counties in 2019.
           </p>
           <a
@@ -116,7 +124,7 @@ export default function Projects() {
         <div className="col-span-1">
           <h2 className="mt-0">US Senators Shared with Voting Patterns</h2>
           <p>
-            D3 Forced Simulation based on the shared voting patterns of the US
+            A D3 Force Simulation based on the shared voting patterns of the US
             Senators during the 109th congress (2005 to 2007). Each node
             represents a senator (blue: democrat; red: republican). Edges have
             been drawn between senators who shared similar voting patterns.
@@ -186,7 +194,7 @@ export default function Projects() {
         <div className="col-span-1">
           <h2 className="mt-0">D3.js HCL Color Exploration</h2>
           <p>
-            D3 Visualization based on the HCL Color (hue angle, chroma,
+            A D3 visualization based on the HCL Color (hue angle, chroma,
             lightness), which is closely estimates how humans perceive colors.
           </p>
           <a
