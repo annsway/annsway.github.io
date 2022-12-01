@@ -57,6 +57,43 @@ export default function Projects() {
         </div>
 
         <div className="col-span-1">
+          <h2 className="mt-0">Data Modeling & BI Solutions for CUHA</h2>
+          <p>
+            Cornell University Hospital for Animals (CUHA) was exploring the
+            viability of opening a new appointment-based Urgent Care service. We
+            built dimensional data models, developed ETL process, used SQL and
+            Tableau to analyze the ER cases to learn the demand and financial
+            aspects of urgent care services, and presented our recommendatons to
+            the stakeholders.
+          </p>
+          <a
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+            href="https://cornell.digication.com/info-4555-5556-business-intelligence-systems-group-14/project-summary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Project
+          </a>
+        </div>
+        <div className="col-span-2">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
+            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
+              <Image
+                className="absolute top-5 md:top-0"
+                objectFit="contain"
+                src="/static/images/bi-etl-project.png"
+                placeholder="blur"
+                blurDataURL="/static/images/bi-etl-project.png"
+                width={5110}
+                height={3139}
+                layout="intrinsic"
+                alt={'Senators'}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="col-span-1">
           <h2 className="mt-0">NLP Project for 10-K Financial Reports</h2>
           <p>
             The intuition of this project was to utilize machine learning
