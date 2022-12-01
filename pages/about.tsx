@@ -117,7 +117,7 @@ export default function About({ recentArticles }) {
         <a href="https://www.flatrate.com/">Flatrate Moving</a>. In my spare
         time, I enjoyed volunteering and tutoring mathematics and statistics in
         multiple places, with the goal of fostering leadership and academic
-        success in teenage girls (
+        success in teenagers (
         <a href="https://youthrive.wixsite.com/youthrive">Youthrive</a>) and
         minorities in the STEM fields (<a href="https://mcae.umn.edu/">MCAE</a>,{' '}
         <a href="https://commonbond.org/education/">CommonBond Communities</a>).

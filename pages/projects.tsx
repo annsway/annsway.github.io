@@ -20,22 +20,24 @@ export default function Projects() {
             donation records were transparent on both the website and the
             ethereum platform.
           </p>
-          <a
-            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
-            href="https://www.youtube.com/watch?v=42_jFxOdSxU&ab_channel=YunZhou"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View Demo
-          </a>
-          <a
-            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
-            href="https://github.com/annsway/eth_wallet"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View Project
-          </a>
+          <div className="inline-flex w-full md:w-auto ">
+            <a
+              className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+              href="https://www.youtube.com/watch?v=42_jFxOdSxU&ab_channel=YunZhou"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+            <a
+              className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+              href="https://github.com/annsway/eth_wallet"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code
+            </a>
+          </div>
         </div>
         <div className="col-span-2">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
@@ -148,6 +150,41 @@ export default function Projects() {
                 src="/static/images/d3-senators.png"
                 placeholder="blur"
                 blurDataURL="/static/images/d3-senators.png"
+                width={5110}
+                height={3139}
+                layout="intrinsic"
+                alt={'Senators'}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <h2 className="mt-0">Movie Barcodes Visualization</h2>
+          <p>
+            A series of movie barcodes created using D3 <b>canvas</b> elements.
+            A barcode uses vertical lines to show the average color of
+            individual frames of a film, helping to reveal how color is used by
+            cinematographers to give flavor to a film.
+          </p>
+          <a
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+            href="https://github.com/annsway/d3-visualization/tree/main/movie-barcodes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Code
+          </a>
+        </div>
+        <div className="col-span-2">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
+            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
+              <Image
+                className="absolute top-5 md:top-0"
+                objectFit="contain"
+                src="/static/images/d3-moviebarcodes.png"
+                placeholder="blur"
+                blurDataURL="/static/images/d3-moviebarcodes.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"
