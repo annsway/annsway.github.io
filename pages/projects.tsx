@@ -13,12 +13,12 @@ export default function Projects() {
         <div className="col-span-1">
           <h2 className="mt-0">TISTA Blockchain Donation Website</h2>
           <p>
-            Built a blockchain donation website where donors could transfer
-            their cryptocurrency via MetaMask digital wallet to verified
-            receiving accounts with low transaction fees (gas fees). Verified
-            beneficiaries could submit donation requests to the website. All
-            donation records were transparent on both the website and the
-            ethereum platform.
+            My internship project to build a blockchain donation website where
+            donors could transfer their cryptocurrency via MetaMask digital
+            wallet to verified receiving accounts with low transaction fees (gas
+            fees). Verified beneficiaries could submit donation requests to the
+            website. All donation records were transparent on both the website
+            and the ethereum platform.
           </p>
           <div className="inline-flex w-full md:w-auto ">
             <a
@@ -51,6 +51,41 @@ export default function Projects() {
                 height={3139}
                 layout="intrinsic"
                 alt={'TISTA'}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <h2 className="mt-0">Jaunty Jalopies Car Dealership System</h2>
+          <p>
+            Team project to build a full stack car dealership application with
+            functionalities to update vehicle inventory, track sales, maintain
+            repair history, and allow customers to search inventory based on
+            user roles.
+          </p>
+          <a
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+            href="https://github.com/annsway/car-dealership"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Project
+          </a>
+        </div>
+        <div className="col-span-2">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
+            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
+              <Image
+                className="absolute top-5 md:top-0"
+                objectFit="contain"
+                src="/static/images/car-dealership.png"
+                placeholder="blur"
+                blurDataURL="/static/images/car-dealership.png"
+                width={5110}
+                height={3139}
+                layout="intrinsic"
+                alt={'Senators'}
               />
             </div>
           </div>
